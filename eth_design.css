@@ -27,13 +27,18 @@
 #top{
     height: 250px;
     padding-top: 20px;
+
   
 }
+
+
 img{
     height: 230px;
     width: 230px;
     padding-left: 20px;
-  
+    border-radius: 10px;
+    overflow: hidden; 
+
   
 }
 #mid{
@@ -47,7 +52,7 @@ img{
 p{
     font-size: 14px;
     font-weight: 300;
-    color: rgb(89, 108, 133);
+    color: hsl(216, 20%, 60%);
     padding-top: 15px;
 
 }
@@ -55,17 +60,18 @@ p{
     height: 30px;
     display: flex;
     border-bottom: 1px solid grey;
-    padding-bottom: 10px;
+    padding-bottom: 17px;
 
 } 
 #blurb{
-    color: rgb(56,75,104);
-    line-height: 10px;
+    color: hsl(216, 20%, 60%);
+    line-height: 20px;
 
 }
 #eth{
-    color:rgb(17,183,185);
-    font-weight: bold;
+    color:rgb(21, 214, 218);
+    font-size: 13px;
+    font-weight: 600;
     
 }
 .divider {
@@ -92,14 +98,19 @@ p{
 #image{
     height: 30px;
     width: 40px;
-    border: 1px solid white;
+    justify-content: left;
+   
+}
+.profile-pic{
+    border-radius: 50% solid white;
 }
 #name{
     height: 20px;
     width: 140px;
+    padding-right: 27px;
     margin-top: 10px;
     margin-right: 50px;
-    border: 2px solid pink;
+
 }
 #creation-of{
     color: rgb(56,75,104);
@@ -111,8 +122,19 @@ h3{
   text-align: center;
   color: rgb(77,102,132);
   text-decoration: none;
-  
+
 }
+h4{
+    font-size: 18px;
+}
+
+a{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+    
+  }
 /* .hover-mode{
     text-decoration: none;
 } */
